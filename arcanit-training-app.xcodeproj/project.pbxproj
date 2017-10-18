@@ -14,6 +14,7 @@
 		06C851851F975C2C008D000D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06C851831F975C2C008D000D /* LaunchScreen.storyboard */; };
 		06C851901F975C2C008D000D /* arcanit_training_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C8518F1F975C2C008D000D /* arcanit_training_appTests.swift */; };
 		06C8519B1F975C2C008D000D /* arcanit_training_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C8519A1F975C2C008D000D /* arcanit_training_appUITests.swift */; };
+		06C851A91F9765C7008D000D /* helloworldprinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C851A81F9765C7008D000D /* helloworldprinter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		06C851961F975C2C008D000D /* arcanit-training-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "arcanit-training-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06C8519A1F975C2C008D000D /* arcanit_training_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arcanit_training_appUITests.swift; sourceTree = "<group>"; };
 		06C8519C1F975C2D008D000D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06C851A81F9765C7008D000D /* helloworldprinter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloworldprinter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				06C8517A1F975C2C008D000D /* AppDelegate.swift */,
+				06C851A81F9765C7008D000D /* helloworldprinter.swift */,
 				06C8517C1F975C2C008D000D /* ViewController.swift */,
 				06C8517E1F975C2C008D000D /* Main.storyboard */,
 				06C851811F975C2C008D000D /* Assets.xcassets */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06C8517D1F975C2C008D000D /* ViewController.swift in Sources */,
+				06C851A91F9765C7008D000D /* helloworldprinter.swift in Sources */,
 				06C8517B1F975C2C008D000D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

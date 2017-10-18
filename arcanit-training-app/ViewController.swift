@@ -9,10 +9,21 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet var resultsTextView : UITextView!
+    @IBAction func hwTapped(sender : AnyObject) {
+        resultsTextView.text = hw.rethw();
+    }
+    @IBAction func clearTapped(sender : AnyObject) {
+        resultsTextView.text = "";
+    }
+    func RefreshUI(){
+        resultsTextView.text = "";
+    }
+    let hw = HelloWorldPrinter();
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        RefreshUI();
     }
 
     override func didReceiveMemoryWarning() {
